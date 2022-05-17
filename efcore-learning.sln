@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32505.426
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreFirstApp", "1. 시작하기\EFCoreFirstApp\EFCoreFirstApp.csproj", "{0E19164E-05B3-49CD-9635-4E43F90966A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E19164E-05B3-49CD-9635-4E43F90966A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E19164E-05B3-49CD-9635-4E43F90966A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E19164E-05B3-49CD-9635-4E43F90966A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E19164E-05B3-49CD-9635-4E43F90966A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {677230C2-E8B4-42AF-B660-D3B21C4813D6}
+	EndGlobalSection
+EndGlobal

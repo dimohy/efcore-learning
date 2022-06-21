@@ -21,7 +21,7 @@ namespace TodoApp.Entities
         public string Before { get; set; } = default!;
         public string After { get; set; } = default!;
 
-        public TodoInfo Todo { get; set; } = default!;
+        public virtual TodoInfo Todo { get; } = default!;
     }
 
     public enum TodoChangedKind

@@ -16,6 +16,6 @@ namespace TodoApp.Entities
 
         public string Descption { get; set; } = "";
 
-        public virtual ICollection<TodoInfo> Todos { get; set; } = default!;
+        public virtual ICollection<TodoInfo> Todos { get; } = default!;
     }
 }

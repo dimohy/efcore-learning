@@ -21,6 +21,6 @@ public record TodoInfo
     
     public virtual UserInfo User { get; set; } = default!;
 
-    public virtual ICollection<TodoChangedHistory> Histories { get; set; } = default!;
-    public virtual ICollection<TodoTagInfo> Tags { get; set; } = default!;
+    public virtual ICollection<TodoChangedHistory> Histories { get; } = default!;
+    public virtual ICollection<TodoTagInfo> Tags { get; } = default!;
 }

@@ -81,7 +81,18 @@ var result = c.SaveChanges();
 Console.WriteLine(result);
 }}} */
 
-var testUser = c.Users.Include(x => x.Todos).ThenInclude(y => y.Tags).First(x => x.UserId == "test");
+var testUser =  c.Users
+                .Include(user => user.Todos)
+                    .ThenInclude(todo => todo.Tags)
+                .First(x => x.UserId == "test");
+
+//var testUser = (from user in c.Users
+//               join todo in c.Todos
+//                on user.UserId equals todo.UserId into userTodo
+//               where user.UserId == "test"
+//               select userTodo
+//               ).First();
+
 foreach (var testTodos in testUser.Todos)
 {
     Console.WriteLine(testTodos.Memo);

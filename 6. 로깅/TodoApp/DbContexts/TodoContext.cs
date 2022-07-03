@@ -15,7 +15,7 @@ public class TodoContext : DbContext
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         // "database.db" 파일로 SQLite 사용
-        optionsBuilder.UseSqlite("Data Source=database.db");
+        optionsBuilder.UseSqlite("Data Source=database.db")
             //.AddInterceptors(new TaggedQueryCommandInterceptor());
             .LogTo(Console.WriteLine);
     }

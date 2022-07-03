@@ -4,7 +4,6 @@ using TodoApp.DbContexts;
 using TodoApp.Entities;
 
 using var c = new TodoContext();
-c.Database.Log
 
 /* 추가 {{{
 var newUser = new UserInfo
